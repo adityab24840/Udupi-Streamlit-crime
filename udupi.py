@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+
+
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
@@ -182,3 +188,4 @@ def update_plot(selected_crime_type, selected_location, selected_year, selected_
 # Run the app
 if __name__ == '__main__':
     app.run_server(debug=True)
+
